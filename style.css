@@ -81,7 +81,12 @@ a:hover { text-decoration: underline; }
               linear-gradient(180deg, rgba(23, 10, 46, .55) 0%, rgba(23, 10, 46, .92) 70%, var(--mor-koyu) 100%);
 }
 .hero .kap { position: relative; z-index: 1; }
-.hero-logo { width: min(420px, 78vw); margin: 0 auto 8px; filter: drop-shadow(0 14px 34px rgba(0, 0, 0, .45)); }
+/* Menüdeki düzenin aynısı: kırmızı ikon üstte, yazı altında. */
+.hero-ikon {
+  width: min(124px, 26vw); height: auto; margin: 0 auto 16px;
+  filter: drop-shadow(0 12px 26px rgba(0, 0, 0, .5));
+}
+.hero-logo { width: min(440px, 82vw); margin: 0 auto 10px; filter: drop-shadow(0 14px 34px rgba(0, 0, 0, .45)); }
 .slogan { font-size: clamp(22px, 4.4vw, 34px); font-weight: 800; margin: 4px 0 10px; }
 .hero p.alt { max-width: 620px; margin: 0 auto 26px; font-size: 18px; color: var(--yazi-sonuk); }
 
