@@ -8,7 +8,12 @@ yayınlanıyor: <https://osmanemrekaya.github.io/stretchescapewebsite/>
 | `index.html` | Marketing URL |
 | `support.html` | Support URL |
 | `privacy.html` | Privacy Policy URL |
+| `terms.html` | — (kullanım koşulları; yalnızca alt bilgiden bağlı) |
 | `app-ads.txt` | — (AdMob doğrulaması, alan adının kökünden okunur) |
+
+`privacy.html` ve `terms.html` oyunun içinde de okunuyor (Ayarlar → Gizlilik
+seçenekleri). Metinler oyun deposunda `index.html` → `METINLER` içinde ve
+buradakilerle kelimesi kelimesine aynı olmalı: biri değişirse öteki de.
 
 Görseller, bayraklar ve Baloo 2 fontu oyunun kendi varlıklarından kopyalandı;
 site oyunla aynı görünsün diye. Kaynakları oyun deposunda duruyor.
