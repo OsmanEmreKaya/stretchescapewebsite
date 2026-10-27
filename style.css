@@ -102,8 +102,6 @@ a:hover { text-decoration: underline; }
   background: rgba(255, 255, 255, .09); box-shadow: inset 0 0 0 1px var(--kenar);
   color: var(--yazi);
 }
-.dugme.pasif { opacity: .75; cursor: default; }
-.dugme.pasif:hover { transform: none; }
 
 /* Kedi ekranın kenarına değil İÇERİK SÜTUNUNA yaslı (.hero .kap'ın içinde):
    geniş ekranda kenara yapışınca metinden kopuk, ıssız duruyordu; taşarsa da
